@@ -4,22 +4,22 @@ cask "janusmcp" do
 
   on_macos do
     on_intel do
-      sha256 "527ee1f9627395a60253701ee276ab306e2b2aedffcbbb4416e626b92cf02431"
+      sha256 "f6900e9de0938012f6484935b3733f8c2d67f53a36a01ef48daaca1193e6dca2"
       url "https://github.com/bayway/janusmcp/releases/download/v#{version}/janusmcp_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "543eb82c2c9e85046bef79737b8df74b8b82611e0e875c678a3f9cf9bd6ff58f"
+      sha256 "4781819367063c497396e844bbf015e67725f427d42ea752d04e9f9eea430e75"
       url "https://github.com/bayway/janusmcp/releases/download/v#{version}/janusmcp_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "35ab622e5418d14250957b8becdff0934ef99100d93cbf333b4fe3049f7c3293"
+      sha256 "383d587289eb51768a2f911ab9f2d814f8c11214bc30f5b617d411620c3700dd"
       url "https://github.com/bayway/janusmcp/releases/download/v#{version}/janusmcp_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "f21fe276144c1e83c14cf86163b4c00c256f491641d741410ae9fa78a658d619"
+      sha256 "75da1894cfdb30d59d18e6df36bc4eca7c9ee64e7ddc07746385afe0039f66d9"
       url "https://github.com/bayway/janusmcp/releases/download/v#{version}/janusmcp_linux_arm64.tar.gz"
     end
   end
